@@ -12,17 +12,21 @@ const leeftijd = document.querySelector("#leeftijd")
 const toevoegenBtn = document.querySelector("#toevoegen")
 
 toevoegenBtn.addEventListener("click", () => {
-  console.log(login.value);
-  console.log(leeftijd.value);
+gebruikers.push({ id: gebruikers.length + 1, login: login.value, leeftijd: leeftijd.value })
+console.log(gebruikers);
 })
 
 // knop ouder
 const ouderBtn = document.querySelector("#ouderBtn")
-const filterLeeftijdBtn = document.querySelector("#filterLeeftijd")
+const filterLeeftijdInt = document.querySelector("#filterLeeftijd")
 
 ouderBtn.addEventListener("click", () => {
-  gebruikers.filter
+  
 })
 
 // knop jonger
 const jongerBtn = document.querySelector("#jongerBtn")
+
+jongerBtn.addEventListener("click", () => {
+  
+})
